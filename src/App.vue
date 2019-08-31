@@ -1,18 +1,15 @@
 <template>
-  <div>
-      <h1>New Application</h1>
-      <navbar />
-      <router-view />
+ <div>
+        <section class="section">
+            <div class="container">
 
-    <!-- <h1>Hello Kgis</h1>
+                <h1> new Application</h1>
+                <navbar />
+                <router-view />
 
-    <p>vue.js training</p>
-           <hello/>
-            <hello>
-              </hello>
-              -->
-
-  </div>
+            </div>
+        </section>
+    </div>
 </template>
 
 <style scoped>
@@ -20,6 +17,7 @@ h1 { color:green}
 </style>
 
 <script>
+import 'bulma/css/bulma.min.css'
 import Navbar from './components/Navbar'
 // import Hello from './components/Hello'
 export default {
