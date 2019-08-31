@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>App</h1>
+      <h1>New Application</h1>
       <navbar />
       <router-view />
 
